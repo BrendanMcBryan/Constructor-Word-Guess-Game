@@ -1,16 +1,16 @@
 function Letter(value) {
   this.letter = value;
   this.guessed = false;
-  this.sendString = function() {
+  this.toString = function() {
     if (this.letter === " ") {
       this.guessed = true;
       return this.letter;
     } else {
       if (!this.guessed) {
-        console.log("∞");
+        // console.log("∞");
         return "∞";
       } else {
-        console.log(this.letter);
+        // console.log(this.letter);
         return this.letter;
       }
     }
@@ -22,9 +22,4 @@ function Letter(value) {
     }
   };
 }
-
-const guess = new Letter("r");
-guess.sendString();
-
-guess.checkLetter("r");
-guess.sendString();
+module.exports = Letter;
