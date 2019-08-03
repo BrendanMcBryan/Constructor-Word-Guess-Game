@@ -18,7 +18,7 @@ function Letter(value) {
   this.checkLetter = function(userGuess) {
     if (userGuess === this.letter) {
       this.guessed = true;
-      console.log("Good Guess");
+      // console.log("Good Guess");
     }
   };
 }
