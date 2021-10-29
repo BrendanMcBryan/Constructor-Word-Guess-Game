@@ -1,5 +1,7 @@
 ##### Advanced JavaScript Assignment: Constructor Word Guess
 
+2021.10.29 - readme update
+
 ## Constructor Word Guess Game
 
 Welcome to the Constructor Word Guess Game. This one is not that complicated and really not much a beauty, but it does utilize the inquirer npm package, and constructors.
